@@ -1,0 +1,185 @@
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #ffc78f;
+    padding: 5px;
+}
+
+.top-nav p {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#content {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+}
+
+body {
+    background-color: #d8cbbc;
+}
+
+#subscribe-image {
+    height: 100%;
+    width: 43%;
+    float: right;
+    padding: 5px;
+}
+
+#title-bar {
+    position: relative;
+}
+
+#subscribe-box {
+    position: absolute;
+    margin-top: 86px;
+    left: 608px;
+    width: 268px;
+    height: 23px;
+}
+
+#subscribe-button {
+    position: absolute;
+    height: 31px;
+    width: 103px;
+    left: 885px;
+    top: 85px;
+    color: white;
+    background-color: #8a4b66;
+    border: none;
+}
+
+.lower-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #c0dccb;
+    width: 100%;
+}
+
+.dropdown-content p {
+    background-color: #c0dccb;
+    margin-top: 1px;
+    padding: 5px 0 5px 8px;
+    color: #8b4d67;
+    width: 175px;
+    height: 25px;
+}
+
+#left-info {
+    float: left;
+    width: 66%;
+    padding: 15px;
+    background-color: white;
+    height: 900px;
+}
+
+#right-info {
+    float: right;
+    width: 28%;
+    padding: 15px;
+    background-color: white;
+    height: 900px;
+}
+
+#lower-nav ul {
+    display: none;
+    list-style-type: none;
+}
+
+#lower-nav ul:hover {
+    display: block;
+}
+
+.corporate-links1 {
+    background-color: #ffc78f;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+.corporate-links2 {
+    background-color: #c0dccb;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 7px;
+}
+
+#search-bar {
+    width: 100%
+}
+
+#featured-giveaway-pic {
+    padding: 5px;
+    width: 30%;
+    height: auto;
+}
+
+#featured-giveaway {
+    background-color: #ffc78f;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+#table-talk h1 {
+    background-color: #ffc78f;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+#sponsored-links {
+    padding: 7px;
+}
+
+#sponsored-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+    height: auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.drop-down-nav{
+    display: flex;
+    flex-direction: rows;
+}
+
+#jelly-bean-hurricane {
+    float: left;
+    padding: 15px;
+}
+
+#peeps-flowers {
+    float: left;
+    clear: left;
+    padding: 15px;
+}
+
+h4 {
+    font-weight: bold;
+}

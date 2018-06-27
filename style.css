@@ -1,3 +1,7 @@
+* {
+    font-family: 'Cabin Condensed', sans-serif;
+   }
+
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -10,6 +14,12 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
+    font-size: 12px;
+    color: #8a4b66;
+}
+
+.top-nav p:hover{
+    color: white;
 }
 
 #content {
@@ -116,6 +126,14 @@ body {
     width: 100%
 }
 
+.corporate-links1 {
+    font-size: 12px;
+}
+
+.corporate-links2 {
+    font-size: 12px;
+}
+
 #featured-giveaway-pic {
     padding: 5px;
     width: 30%;
@@ -123,11 +141,42 @@ body {
 }
 
 #featured-giveaway {
+    background-color: white;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+#featured-giveaway h1 {
     background-color: #ffc78f;
     width: 100%;
     margin-top: 15px;
     margin-bottom: 5px;
     padding: 7px;
+    font-weight: bold;
+}
+
+#featured-giveaway-pic {
+    float: left;
+}
+
+#featured-giveaway h2 {
+    color: #8a4b66;
+    font-size: 13px;
+}
+
+#featured-giveaway p {
+    font-size: 10px;
+}
+
+#table-talk h1 {
+    font-weight: bold;
+}
+
+#table-talk p {
+    font-size: 10px;
+    line-height: 1.5;
 }
 
 #table-talk h1 {
@@ -140,6 +189,7 @@ body {
 
 #sponsored-links {
     padding: 7px;
+    font-weight: bold;
 }
 
 #sponsored-link {
@@ -172,14 +222,55 @@ body {
 #jelly-bean-hurricane {
     float: left;
     padding: 15px;
+    width: 25%;
 }
 
 #peeps-flowers {
     float: left;
     clear: left;
     padding: 15px;
+    width: 25%;
 }
 
-h4 {
+#left-info h4 {
     font-weight: bold;
+}
+
+#left-info h2 {
+    font-weight: bold;
+}
+
+#putting-it-together p {
+    line-height: 1.75px;
+    font-size: 12px;
+}
+
+#putting-it-together ol {
+    line-height: 1.75;
+    font-size: 12px;
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+
+.sub-title p {
+    padding-left: 10px;
+}
+
+.articles h4 {
+    padding-top: 25px;
+}
+
+.articles p {
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.articles ul {
+    line-height: 1.75;
+    font-size: 12px;
 }
